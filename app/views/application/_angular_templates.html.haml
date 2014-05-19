@@ -1,0 +1,7 @@
+- dir = Rails.root.join("app/views/templates/")
+- templates = Dir.glob("#{dir}/*")
+- templates.each do |template|
+  - key = Pathname.new(template).basename(".html.haml").to_s[1..100]
+  - unless File.directory?(template)
+    %script{id: key, type: "text/ng-template"}
+      =render partial: "templates/#{key}"

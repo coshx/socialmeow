@@ -1,0 +1,29 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  smid: MyString
+  user_id: 1
+  followed: false
+  unfollowed: false
+  followed_back: false
+  parent: MyString
+  followed_date: 2014-05-19 11:12:36
+  unfollowed_date: 2014-05-19 11:12:36
+  name: MyString
+  handle: MyString
+  image_url: MyString
+  description: MyText
+
+two:
+  smid: MyString
+  user_id: 1
+  followed: false
+  unfollowed: false
+  followed_back: false
+  parent: MyString
+  followed_date: 2014-05-19 11:12:36
+  unfollowed_date: 2014-05-19 11:12:36
+  name: MyString
+  handle: MyString
+  image_url: MyString
+  description: MyText
