@@ -1,0 +1,6 @@
+.user-mine{ng: {controller: 'UserMineCtrl'}}
+  %h1 Mine
+  .accounts{ng: {repeat: 'account in accounts'}}
+    %img{ng: {src: '{{account.image_url}}'}}
+    %h5 {{account.handle}}  
+    %p {{account.name}}    

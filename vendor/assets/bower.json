@@ -4,6 +4,7 @@
     "bootstrap": "latest",
     "angular": "latest",
     "underscore": "latest",
-    "angular-ui-router": "latest"
+    "angular-ui-router": "latest",
+    "restangular": "latest"
   }
 }

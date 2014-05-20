@@ -17,6 +17,8 @@ gem 'twitter'
 gem 'haml-rails'
 gem 'bower-rails'
 gem 'devise'
+gem 'pry'
+gem 'pry-nav'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'

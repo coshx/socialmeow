@@ -1,5 +1,5 @@
 window.SM ||= {}
-App = SM.App = angular.module('App', ['ui.router'])
+App = SM.App = angular.module('App', ['ui.router', 'restangular'])
 
 App.config ["$httpProvider", "$locationProvider", ($httpProvider, $locationProvider) ->
   $locationProvider.html5Mode(true)
@@ -7,7 +7,8 @@ App.config ["$httpProvider", "$locationProvider", ($httpProvider, $locationProvi
   $httpProvider.defaults.headers.common["Content-Type"] = "application/json"
 ]
 
-App.config ["$stateProvider", "$urlRouterProvider", ($stateProvider, $urlRouterProvider) ->
+App.config ["$stateProvider", "$urlRouterProvider", "RestangularProvider", ($stateProvider, $urlRouterProvider, RestangularProvider) ->
+  RestangularProvider.setBaseUrl '/api/'
   $urlRouterProvider.otherwise "/"
   $stateProvider.state("/",
     url: "/"
@@ -18,8 +19,21 @@ App.config ["$stateProvider", "$urlRouterProvider", ($stateProvider, $urlRouterP
   ).state("user_info",
     url: "/user_info"
     templateUrl: "user_info"
+  ).state("user_mine",
+    url: "/mine"
+    templateUrl: "user_mine"
   )
 ]
 
-App.controller "DateFieldCtrl", ["$scope", "$element", ($scope, $element) ->
+App.controller "UserMineCtrl", ["$scope", "$element", "Restangular", ($scope, $element, Restangular) ->
+  credentials = Restangular.one('users', 123).getList('accounts').then (result) ->
+    $scope.accounts = result
+    console.log result
+]
+
+App.controller "UserInfoCtrl", ["$scope", "$element", "Restangular", ($scope, $element, Restangular) ->
+  credentials = Restangular.one('users', 123).getList('credentials').then (result) ->
+    $scope.credentials = result[0]
+  $scope.submit = (credentials) ->
+    a = Restangular.one('users', 123).post('credentials', {credentials: credentials})
 ]

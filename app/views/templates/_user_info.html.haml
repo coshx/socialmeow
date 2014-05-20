@@ -1,1 +1,21 @@
-%h1 User Info
+.user-info{ng: {controller: 'UserInfoCtrl'}}
+  %h1 User Info
+
+  %form{role: "form"}
+    .form-group
+      %label{for: "api_key"} API key
+      %input#api_key.form-control{placeholder: "1mmwE3vYRO3xl79XL9VNFxxAS", type: "text", name: "credentials[api_key]", ng: {model: "credentials.api_key"}}
+    .form-group
+      %label{for: "api_secret"} API secret
+      %input#api_secret.form-control{placeholder: "R86Hh4hRBD4T5f8Jo6kPXlhPGsNI9q5L166mL5znjBeLS6CDRo", type: "text", name: "credentials[api_secret]", ng: {model: "credentials.api_secret"}}
+    .form-group
+      %label{for: "access_token"} Access token
+      %input#access_token.form-control{placeholder: "348793482-dGvnvdY1UlpZdyAhg53srnSTsOPe1xL7akIS9aoI", type: "text", name: "credentials[access_token]", ng: {model: "credentials.access_token"}}
+    .form-group
+      %label{for: "access_token"} Access token secret
+      %input#access_token_secret.form-control{placeholder: "eexU4NSsmKaJeO9Z2PvI8TdXdbvZFpGsuxifZrPXt8h2N", type: "text", name: "credentials[access_token_secret]", ng: {model: "credentials.access_token_secret"}}   
+    .checkbox
+      %label
+        %input{:type => "checkbox"}
+          Scheduled autowork
+    %button.btn.btn-default{ng: {click: 'submit(credentials)'}} Submit
