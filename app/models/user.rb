@@ -6,4 +6,5 @@ class User < ActiveRecord::Base
 
   has_many :credentials
   has_many :accounts
+  has_many :mines
 end

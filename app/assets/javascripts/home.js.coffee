@@ -29,6 +29,10 @@ App.controller "UserMineCtrl", ["$scope", "$element", "Restangular", ($scope, $e
   credentials = Restangular.one('users', 123).getList('accounts').then (result) ->
     $scope.accounts = result
     console.log result
+  $scope.mine = ->
+    Restangular.one('users', 123).post('mines', {accounts: _.where($scope.accounts, {selected: true})})
+  $scope.selectedUsers = ->
+    _.map(_.where($scope.accounts, {selected: true}), (account) -> account.handle;)
 ]
 
 App.controller "UserInfoCtrl", ["$scope", "$element", "Restangular", ($scope, $element, Restangular) ->

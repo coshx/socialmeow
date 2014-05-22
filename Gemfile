@@ -19,6 +19,8 @@ gem 'bower-rails'
 gem 'devise'
 gem 'pry'
 gem 'pry-nav'
+gem "capybara"
+gem 'poltergeist'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
