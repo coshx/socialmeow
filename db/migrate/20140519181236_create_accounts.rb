@@ -3,9 +3,9 @@ class CreateAccounts < ActiveRecord::Migration
     create_table :accounts do |t|
       t.string :smid
       t.integer :user_id
-      t.boolean :followed
-      t.boolean :unfollowed
-      t.boolean :followed_back
+      t.boolean :followed, default: false
+      t.boolean :unfollowed, default: false
+      t.boolean :followed_back, default: false
       t.string :parent
       t.datetime :followed_date
       t.datetime :unfollowed_date

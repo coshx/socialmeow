@@ -36,8 +36,12 @@ App.controller "UserMineCtrl", ["$scope", "$element", "Restangular", ($scope, $e
 ]
 
 App.controller "UserInfoCtrl", ["$scope", "$element", "Restangular", ($scope, $element, Restangular) ->
-  credentials = Restangular.one('users', 123).getList('credentials').then (result) ->
-    $scope.credentials = result[0]
+  getCredentials = Restangular.one('users', 123).getList('credentials').then (result) ->
+    $scope.credentials = result[0] 
   $scope.submit = (credentials) ->
     a = Restangular.one('users', 123).post('credentials', {credentials: credentials})
+    $scope.init()
+  $scope.init = ->
+    Restangular.one('users', 123).post('init', 0)
+
 ]

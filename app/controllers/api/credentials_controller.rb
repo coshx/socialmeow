@@ -1,6 +1,6 @@
 class Api::CredentialsController < ApiController
   before_action :authenticate_user!
-
+  VALID_CREDENTIALS = %w(api_key api_secret access_token access_token_secret)
   def index
   	credentials = {}
   	current_user.credentials.each do |c|
@@ -14,10 +14,12 @@ class Api::CredentialsController < ApiController
 
   def create
   	params[:credentials].each do |key, value|
-  		credential = current_user.credentials.find_by name: key
-  		credential = current_user.credentials.new(name: key) unless credential.present?
-  		credential.code = value
-  		credential.save!
+  		if VALID_CREDENTIALS.include? key
+	  		credential = current_user.credentials.find_by name: key
+	  		credential = current_user.credentials.new(name: key) unless credential.present?
+	  		credential.code = value
+	  		credential.save!
+	  	end
   	end
   	render json: {error: 0}
   end	

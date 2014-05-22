@@ -11,14 +11,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140521235125) do
+ActiveRecord::Schema.define(version: 20140522214639) do
 
   create_table "accounts", force: true do |t|
     t.string   "smid"
     t.integer  "user_id"
-    t.boolean  "followed"
-    t.boolean  "unfollowed"
-    t.boolean  "followed_back"
+    t.boolean  "followed",        default: false
+    t.boolean  "unfollowed",      default: false
+    t.boolean  "followed_back",   default: false
     t.string   "parent"
     t.datetime "followed_date"
     t.datetime "unfollowed_date"
@@ -31,6 +31,7 @@ ActiveRecord::Schema.define(version: 20140521235125) do
     t.integer  "batch_id"
     t.boolean  "mined"
     t.boolean  "following"
+    t.string   "error"
   end
 
   add_index "accounts", ["smid", "user_id"], name: "index_accounts_on_smid_and_user_id", unique: true
@@ -56,7 +57,6 @@ ActiveRecord::Schema.define(version: 20140521235125) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.string   "smid"
-    t.integer  "account_id"
     t.string   "handle"
   end
 

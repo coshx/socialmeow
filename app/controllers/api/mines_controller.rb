@@ -3,7 +3,6 @@ class Api::MinesController < ApiController
   protect_from_forgery except: [:get_info_from_js]
 
   def create
-  	binding.pry
   	params[:accounts].each do |account|
   		mine = Mine.find_by handle: account[:handle]
   		unless mine.present?
@@ -16,16 +15,18 @@ class Api::MinesController < ApiController
   def get_info_from_js
   	user = User.find(params[:user_id])
   	mine = Mine.find_by handle: params[:account]
-  	params[:accounts].each do |account|
-  		account = account[1]
-  		account = Account.find_by handle: account[:handle]
+  	params[:accounts].each do |a|
+  		a = a[1]
+  		account = Account.find_by handle: a[:handle]
   		unless account.present?
   			account = user.accounts.new
-  			account.smid = account[:id]
-  			account.handle = account[:handle]
+  			account.smid = a[:id]
+  			account.handle = a[:handle]
+  			account.name = a[:name]
   			account.parent = params[:account]
-  			account.image_url = account[:image_url]
-  			account.following = account[:following].present?
+  			account.description = a[:bio]
+  			account.image_url = a[:image_url]
+  			account.following = a[:following].present?
   			account.save!
   		end
   	end

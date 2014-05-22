@@ -7,13 +7,9 @@ class ApiController < ApplicationController
 
 private
 
-	def twitter_client		
-    Twitter::REST::Client.new do |config|
-      config.consumer_key        = current_user.credentials.find_by(name:'api_key').code
-      config.consumer_secret     = current_user.credentials.find_by(name:'api_secret').code
-      config.access_token        = current_user.credentials.find_by(name:'access_token').code
-      config.access_token_secret = current_user.credentials.find_by(name:'access_token_secret').code
-    end
+	def set_twitter_client		
+		current_user.get_client
+    @client = current_user.client
 	end
 
 protected

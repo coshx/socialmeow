@@ -1,6 +1,10 @@
 .user-info{ng: {controller: 'UserInfoCtrl'}}
   %h1 User Info
-
+  %p
+    Go to 
+    %a{href: "https://apps.twitter.com/", target: "_"}
+      https://apps.twitter.com/
+    and create a new APP, give it write access and copy the credentials here
   %form{role: "form"}
     .form-group
       %label{for: "api_key"} API key
