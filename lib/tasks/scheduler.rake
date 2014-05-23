@@ -18,3 +18,9 @@ task :unfollow, [:user, :amount] => :environment do |t, args|
   	sleep rand(1..3)
   end
 end
+
+task :who_back, [:user] => :environment do |t, args|
+  user = User.find(args[:user])
+  user.get_client
+  user.check_who_followed_back
+end

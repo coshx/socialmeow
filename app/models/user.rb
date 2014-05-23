@@ -79,7 +79,7 @@ class User < ActiveRecord::Base
 
   def check_who_followed_back
   	follower_ids = client.follower_ids.to_a
-  	user_accounts = accounts.where(followed:true, unfollowed:false)
+  	user_accounts = accounts.where.not(following: true).where(followed:true, unfollowed:false)
   	user_accounts.each do |a|
   		if follower_ids.include? a.smid.to_i
   			a.followed_back = true
