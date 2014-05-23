@@ -24,6 +24,7 @@ class Api::AccountsController < ApiController
     followers = @client.followers
     followers.each do |f|
       account = Account.new(user_id: current_user.id, handle: f.handle, smid: f.id, name: f.name, image_url: f.profile_image_url.to_s, followed: true)
+      account.following = true
       account.save!
     end
   end
