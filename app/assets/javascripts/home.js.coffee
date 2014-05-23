@@ -30,9 +30,9 @@ App.controller "UserMineCtrl", ["$scope", "$element", "Restangular", ($scope, $e
     $scope.accounts = result
     console.log result
   $scope.mine = ->
-    Restangular.one('users', 123).post('mines', {accounts: _.where($scope.accounts, {selected: true})})
+    Restangular.one('users', 123).post('mines', {accounts: _.where($scope.accounts, {to_mine: true})})
   $scope.selectedUsers = ->
-    _.map(_.where($scope.accounts, {selected: true}), (account) -> account.handle;)
+    _.map(_.where($scope.accounts, {to_mine: true}), (account) -> account.handle;)
 ]
 
 App.controller "UserInfoCtrl", ["$scope", "$element", "Restangular", ($scope, $element, Restangular) ->

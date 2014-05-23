@@ -9,6 +9,7 @@ group :development do
 end
 group :production do
 	gem 'pg'
+	gem 'whenever', :require => false
 end
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
@@ -26,6 +27,7 @@ gem 'pry'
 gem 'pry-nav'
 gem "capybara"
 gem 'poltergeist'
+
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'

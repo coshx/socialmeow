@@ -12,7 +12,7 @@ class User < ActiveRecord::Base
   cattr_accessor :client
 
   def follow_one
-  	account = accounts.where(followed:false).first
+  	account = accounts.where(followed:false, following:false).first
   	error = ""
   	begin
   		client.follow(account.handle)
@@ -51,6 +51,7 @@ class User < ActiveRecord::Base
   	# who didn't follow back
   	# And who you followed more than 1 day ago
   	account = accounts.where(followed:true, unfollowed:false, followed_back: false).order(:followed_date).first
+  	return unless account.followed_date.present?
   	return unless (DateTime.now - account.followed_date).to_i < 1
   	begin
   		client.unfollow(account.handle)

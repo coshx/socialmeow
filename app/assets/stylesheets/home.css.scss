@@ -3,5 +3,8 @@
 		&.selected-true {
 			background: grey;
 		}
+		&.mined-true {
+			background: pink;
+		}
 	}
 }

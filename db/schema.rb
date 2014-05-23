@@ -30,7 +30,7 @@ ActiveRecord::Schema.define(version: 20140522214639) do
     t.datetime "updated_at"
     t.integer  "batch_id"
     t.boolean  "mined"
-    t.boolean  "following"
+    t.boolean  "following",       default: false
     t.string   "error"
   end
 

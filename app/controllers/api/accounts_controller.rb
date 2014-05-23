@@ -3,7 +3,7 @@ class Api::AccountsController < ApiController
 
   def index
     accounts = current_user.accounts
-  	render json: accounts.to_json
+  	render json: accounts.to_json(methods: [:to_mine, :was_mined])
   end
 
   def update
