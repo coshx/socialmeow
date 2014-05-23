@@ -29,8 +29,29 @@ class User < ActiveRecord::Base
 	end
   end
   
-  def unfollow_one_not_following_back
-  	accounts.where(followed:true, unfollowed:false).order(:followed_date).first
+  def unfollow_one
+  	account = accounts.where(followed:true, unfollowed:false, followed_back: false).order(:followed_date).first
+  	begin
+  		client.unfollow(account.handle)
+  	rescue Exception => e
+  		error = e.message
+  		puts "was some kinda error with #{account.handle}: #{e.message}"
+  		account.error = error
+  	end
+  	unless error == "Rate limit exceeded"
+	  	account.unfollowed = true
+	  	account.unfollowed_date = DateTime.now
+	  	account.save!
+	  	puts "Account #{account.handle} was followed and saved!"
+	end
+  end
+
+  def safe_unfollow_one
+  	# unfollow only 
+  	# who didn't follow back
+  	# And who you followed more than 1 day ago
+  	account = accounts.where(followed:true, unfollowed:false, followed_back: false).order(:followed_date).first
+  	return unless (DateTime.now - account.followed_date).to_i < 1
   	begin
   		client.unfollow(account.handle)
   	rescue Exception => e
