@@ -797,3 +797,680 @@ TypeError: expected numeric
 Tasks: TOP => unfollow
 (See full trace by running task with --trace)
 Account meganganz was followed and saved!
+rake aborted!
+TypeError: expected numeric
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `-'
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `minus_with_duration'
+/Users/michael/rails/socialmeow/app/models/user.rb:55:in `safe_unfollow_one'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:17:in `block (2 levels) in <top (required)>'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `times'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `block in <top (required)>'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `eval'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => unfollow
+(See full trace by running task with --trace)
+Account anniemebane was followed and saved!
+rake aborted!
+TypeError: expected numeric
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `-'
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `minus_with_duration'
+/Users/michael/rails/socialmeow/app/models/user.rb:55:in `safe_unfollow_one'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:17:in `block (2 levels) in <top (required)>'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `times'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `block in <top (required)>'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `eval'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => unfollow
+(See full trace by running task with --trace)
+Account strachable was followed and saved!
+rake aborted!
+TypeError: expected numeric
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `-'
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `minus_with_duration'
+/Users/michael/rails/socialmeow/app/models/user.rb:55:in `safe_unfollow_one'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:17:in `block (2 levels) in <top (required)>'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `times'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `block in <top (required)>'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `eval'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => unfollow
+(See full trace by running task with --trace)
+Account realjeffreyross was followed and saved!
+rake aborted!
+TypeError: expected numeric
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `-'
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `minus_with_duration'
+/Users/michael/rails/socialmeow/app/models/user.rb:55:in `safe_unfollow_one'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:17:in `block (2 levels) in <top (required)>'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `times'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `block in <top (required)>'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `eval'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => unfollow
+(See full trace by running task with --trace)
+Account TheMaude was followed and saved!
+rake aborted!
+TypeError: expected numeric
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `-'
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `minus_with_duration'
+/Users/michael/rails/socialmeow/app/models/user.rb:55:in `safe_unfollow_one'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:17:in `block (2 levels) in <top (required)>'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `times'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `block in <top (required)>'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `eval'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => unfollow
+(See full trace by running task with --trace)
+Account offbeatorbit was followed and saved!
+rake aborted!
+TypeError: expected numeric
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `-'
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `minus_with_duration'
+/Users/michael/rails/socialmeow/app/models/user.rb:55:in `safe_unfollow_one'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:17:in `block (2 levels) in <top (required)>'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `times'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `block in <top (required)>'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `eval'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => unfollow
+(See full trace by running task with --trace)
+Account ChelseaVPeretti was followed and saved!
+rake aborted!
+TypeError: expected numeric
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `-'
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `minus_with_duration'
+/Users/michael/rails/socialmeow/app/models/user.rb:55:in `safe_unfollow_one'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:17:in `block (2 levels) in <top (required)>'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `times'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `block in <top (required)>'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `eval'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => unfollow
+(See full trace by running task with --trace)
+Account chelseaclarke was followed and saved!
+rake aborted!
+TypeError: expected numeric
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `-'
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `minus_with_duration'
+/Users/michael/rails/socialmeow/app/models/user.rb:55:in `safe_unfollow_one'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:17:in `block (2 levels) in <top (required)>'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `times'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `block in <top (required)>'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `eval'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => unfollow
+(See full trace by running task with --trace)
+Account NikkiGlaser was followed and saved!
+rake aborted!
+TypeError: expected numeric
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `-'
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `minus_with_duration'
+/Users/michael/rails/socialmeow/app/models/user.rb:55:in `safe_unfollow_one'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:17:in `block (2 levels) in <top (required)>'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `times'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `block in <top (required)>'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `eval'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => unfollow
+(See full trace by running task with --trace)
+Account sarahtiana was followed and saved!
+rake aborted!
+TypeError: expected numeric
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `-'
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `minus_with_duration'
+/Users/michael/rails/socialmeow/app/models/user.rb:55:in `safe_unfollow_one'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:17:in `block (2 levels) in <top (required)>'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `times'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `block in <top (required)>'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `eval'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => unfollow
+(See full trace by running task with --trace)
+Account georgethechen was followed and saved!
+rake aborted!
+TypeError: expected numeric
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `-'
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `minus_with_duration'
+/Users/michael/rails/socialmeow/app/models/user.rb:55:in `safe_unfollow_one'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:17:in `block (2 levels) in <top (required)>'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `times'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `block in <top (required)>'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `eval'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => unfollow
+(See full trace by running task with --trace)
+Account ohwhat was followed and saved!
+rake aborted!
+TypeError: expected numeric
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `-'
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `minus_with_duration'
+/Users/michael/rails/socialmeow/app/models/user.rb:55:in `safe_unfollow_one'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:17:in `block (2 levels) in <top (required)>'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `times'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `block in <top (required)>'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `eval'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => unfollow
+(See full trace by running task with --trace)
+Account Laura_Willcox was followed and saved!
+rake aborted!
+TypeError: expected numeric
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `-'
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `minus_with_duration'
+/Users/michael/rails/socialmeow/app/models/user.rb:55:in `safe_unfollow_one'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:17:in `block (2 levels) in <top (required)>'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `times'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `block in <top (required)>'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `eval'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => unfollow
+(See full trace by running task with --trace)
+Account MarianRosin was followed and saved!
+rake aborted!
+TypeError: expected numeric
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `-'
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `minus_with_duration'
+/Users/michael/rails/socialmeow/app/models/user.rb:55:in `safe_unfollow_one'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:17:in `block (2 levels) in <top (required)>'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `times'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `block in <top (required)>'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `eval'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => unfollow
+(See full trace by running task with --trace)
+Account thesheertruth was followed and saved!
+rake aborted!
+TypeError: expected numeric
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `-'
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `minus_with_duration'
+/Users/michael/rails/socialmeow/app/models/user.rb:55:in `safe_unfollow_one'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:17:in `block (2 levels) in <top (required)>'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `times'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `block in <top (required)>'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `eval'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => unfollow
+(See full trace by running task with --trace)
+Account jimmyfallon was followed and saved!
+rake aborted!
+TypeError: expected numeric
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `-'
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `minus_with_duration'
+/Users/michael/rails/socialmeow/app/models/user.rb:55:in `safe_unfollow_one'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:17:in `block (2 levels) in <top (required)>'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `times'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `block in <top (required)>'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `eval'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => unfollow
+(See full trace by running task with --trace)
+Account traciewcomedy was followed and saved!
+rake aborted!
+TypeError: expected numeric
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `-'
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `minus_with_duration'
+/Users/michael/rails/socialmeow/app/models/user.rb:55:in `safe_unfollow_one'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:17:in `block (2 levels) in <top (required)>'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `times'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `block in <top (required)>'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `eval'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => unfollow
+(See full trace by running task with --trace)
+Account ilazer was followed and saved!
+rake aborted!
+TypeError: expected numeric
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `-'
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `minus_with_duration'
+/Users/michael/rails/socialmeow/app/models/user.rb:55:in `safe_unfollow_one'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:17:in `block (2 levels) in <top (required)>'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `times'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `block in <top (required)>'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `eval'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => unfollow
+(See full trace by running task with --trace)
+Account broadcity was followed and saved!
+rake aborted!
+TypeError: expected numeric
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `-'
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `minus_with_duration'
+/Users/michael/rails/socialmeow/app/models/user.rb:55:in `safe_unfollow_one'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:17:in `block (2 levels) in <top (required)>'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `times'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `block in <top (required)>'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `eval'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => unfollow
+(See full trace by running task with --trace)
+Account UpSwing_Design was followed and saved!
+rake aborted!
+TypeError: expected numeric
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `-'
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `minus_with_duration'
+/Users/michael/rails/socialmeow/app/models/user.rb:55:in `safe_unfollow_one'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:17:in `block (2 levels) in <top (required)>'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `times'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `block in <top (required)>'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `eval'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => unfollow
+(See full trace by running task with --trace)
+Account SFSketchfest was followed and saved!
+rake aborted!
+TypeError: expected numeric
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `-'
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `minus_with_duration'
+/Users/michael/rails/socialmeow/app/models/user.rb:55:in `safe_unfollow_one'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:17:in `block (2 levels) in <top (required)>'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `times'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `block in <top (required)>'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `eval'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => unfollow
+(See full trace by running task with --trace)
+Account soleilalaplage was followed and saved!
+rake aborted!
+TypeError: expected numeric
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `-'
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `minus_with_duration'
+/Users/michael/rails/socialmeow/app/models/user.rb:55:in `safe_unfollow_one'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:17:in `block (2 levels) in <top (required)>'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `times'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `block in <top (required)>'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `eval'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => unfollow
+(See full trace by running task with --trace)
+Account colestratton was followed and saved!
+rake aborted!
+TypeError: expected numeric
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `-'
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `minus_with_duration'
+/Users/michael/rails/socialmeow/app/models/user.rb:55:in `safe_unfollow_one'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:17:in `block (2 levels) in <top (required)>'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `times'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `block in <top (required)>'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `eval'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => unfollow
+(See full trace by running task with --trace)
+Account DannyDechi was followed and saved!
+rake aborted!
+TypeError: expected numeric
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `-'
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `minus_with_duration'
+/Users/michael/rails/socialmeow/app/models/user.rb:55:in `safe_unfollow_one'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:17:in `block (2 levels) in <top (required)>'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `times'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `block in <top (required)>'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `eval'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => unfollow
+(See full trace by running task with --trace)
+Account Thrillerverse was followed and saved!
+rake aborted!
+TypeError: expected numeric
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `-'
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `minus_with_duration'
+/Users/michael/rails/socialmeow/app/models/user.rb:55:in `safe_unfollow_one'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:17:in `block (2 levels) in <top (required)>'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `times'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `block in <top (required)>'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `eval'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => unfollow
+(See full trace by running task with --trace)
+Account Jill_lives was followed and saved!
+rake aborted!
+TypeError: expected numeric
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `-'
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `minus_with_duration'
+/Users/michael/rails/socialmeow/app/models/user.rb:55:in `safe_unfollow_one'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:17:in `block (2 levels) in <top (required)>'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `times'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `block in <top (required)>'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `eval'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => unfollow
+(See full trace by running task with --trace)
+Account Luwa_Tosin was followed and saved!
+rake aborted!
+TypeError: expected numeric
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `-'
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `minus_with_duration'
+/Users/michael/rails/socialmeow/app/models/user.rb:55:in `safe_unfollow_one'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:17:in `block (2 levels) in <top (required)>'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `times'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `block in <top (required)>'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `eval'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => unfollow
+(See full trace by running task with --trace)
+Account _juliannemoore was followed and saved!
+rake aborted!
+TypeError: expected numeric
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `-'
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `minus_with_duration'
+/Users/michael/rails/socialmeow/app/models/user.rb:55:in `safe_unfollow_one'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:17:in `block (2 levels) in <top (required)>'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `times'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `block in <top (required)>'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `eval'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => unfollow
+(See full trace by running task with --trace)
+Account poundstonefans was followed and saved!
+rake aborted!
+TypeError: expected numeric
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `-'
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `minus_with_duration'
+/Users/michael/rails/socialmeow/app/models/user.rb:55:in `safe_unfollow_one'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:17:in `block (2 levels) in <top (required)>'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `times'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `block in <top (required)>'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `eval'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => unfollow
+(See full trace by running task with --trace)
+Account JennyPentland was followed and saved!
+rake aborted!
+TypeError: expected numeric
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `-'
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `minus_with_duration'
+/Users/michael/rails/socialmeow/app/models/user.rb:55:in `safe_unfollow_one'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:17:in `block (2 levels) in <top (required)>'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `times'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `block in <top (required)>'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `eval'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => unfollow
+(See full trace by running task with --trace)
+Account amber_benson was followed and saved!
+rake aborted!
+TypeError: expected numeric
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `-'
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `minus_with_duration'
+/Users/michael/rails/socialmeow/app/models/user.rb:55:in `safe_unfollow_one'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:17:in `block (2 levels) in <top (required)>'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `times'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `block in <top (required)>'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `eval'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => unfollow
+(See full trace by running task with --trace)
+Account np was followed and saved!
+rake aborted!
+TypeError: expected numeric
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `-'
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `minus_with_duration'
+/Users/michael/rails/socialmeow/app/models/user.rb:55:in `safe_unfollow_one'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:17:in `block (2 levels) in <top (required)>'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `times'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `block in <top (required)>'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `eval'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => unfollow
+(See full trace by running task with --trace)
+Account chrisPcrittter was followed and saved!
+rake aborted!
+TypeError: expected numeric
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `-'
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `minus_with_duration'
+/Users/michael/rails/socialmeow/app/models/user.rb:55:in `safe_unfollow_one'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:17:in `block (2 levels) in <top (required)>'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `times'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `block in <top (required)>'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `eval'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => unfollow
+(See full trace by running task with --trace)
+Account sfegotist was followed and saved!
+rake aborted!
+TypeError: expected numeric
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `-'
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `minus_with_duration'
+/Users/michael/rails/socialmeow/app/models/user.rb:55:in `safe_unfollow_one'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:17:in `block (2 levels) in <top (required)>'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `times'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `block in <top (required)>'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `eval'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => unfollow
+(See full trace by running task with --trace)
+Account paulinawrites was followed and saved!
+rake aborted!
+TypeError: expected numeric
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `-'
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `minus_with_duration'
+/Users/michael/rails/socialmeow/app/models/user.rb:55:in `safe_unfollow_one'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:17:in `block (2 levels) in <top (required)>'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `times'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `block in <top (required)>'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `eval'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => unfollow
+(See full trace by running task with --trace)
+Account strandbookstore was followed and saved!
+rake aborted!
+TypeError: expected numeric
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `-'
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `minus_with_duration'
+/Users/michael/rails/socialmeow/app/models/user.rb:55:in `safe_unfollow_one'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:17:in `block (2 levels) in <top (required)>'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `times'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `block in <top (required)>'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `eval'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => unfollow
+(See full trace by running task with --trace)
+Account dickenstweet was followed and saved!
+rake aborted!
+TypeError: expected numeric
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `-'
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `minus_with_duration'
+/Users/michael/rails/socialmeow/app/models/user.rb:55:in `safe_unfollow_one'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:17:in `block (2 levels) in <top (required)>'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `times'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `block in <top (required)>'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `eval'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => unfollow
+(See full trace by running task with --trace)
+Account hanamaelee was followed and saved!
+rake aborted!
+TypeError: expected numeric
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `-'
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `minus_with_duration'
+/Users/michael/rails/socialmeow/app/models/user.rb:55:in `safe_unfollow_one'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:17:in `block (2 levels) in <top (required)>'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `times'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `block in <top (required)>'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `eval'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => unfollow
+(See full trace by running task with --trace)
+Account G2USA was followed and saved!
+rake aborted!
+TypeError: expected numeric
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `-'
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `minus_with_duration'
+/Users/michael/rails/socialmeow/app/models/user.rb:55:in `safe_unfollow_one'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:17:in `block (2 levels) in <top (required)>'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `times'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `block in <top (required)>'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `eval'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => unfollow
+(See full trace by running task with --trace)
+Account KimKierkegaard was followed and saved!
+rake aborted!
+TypeError: expected numeric
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `-'
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `minus_with_duration'
+/Users/michael/rails/socialmeow/app/models/user.rb:55:in `safe_unfollow_one'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:17:in `block (2 levels) in <top (required)>'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `times'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `block in <top (required)>'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `eval'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => unfollow
+(See full trace by running task with --trace)
+Account worstposterever was followed and saved!
+rake aborted!
+TypeError: expected numeric
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `-'
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `minus_with_duration'
+/Users/michael/rails/socialmeow/app/models/user.rb:55:in `safe_unfollow_one'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:17:in `block (2 levels) in <top (required)>'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `times'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `block in <top (required)>'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `eval'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => unfollow
+(See full trace by running task with --trace)
+Account bmkrol was followed and saved!
+rake aborted!
+TypeError: expected numeric
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `-'
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `minus_with_duration'
+/Users/michael/rails/socialmeow/app/models/user.rb:55:in `safe_unfollow_one'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:17:in `block (2 levels) in <top (required)>'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `times'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `block in <top (required)>'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `eval'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => unfollow
+(See full trace by running task with --trace)
+Account bobbyleelive was followed and saved!
+rake aborted!
+TypeError: expected numeric
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `-'
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `minus_with_duration'
+/Users/michael/rails/socialmeow/app/models/user.rb:55:in `safe_unfollow_one'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:17:in `block (2 levels) in <top (required)>'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `times'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `block in <top (required)>'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `eval'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => unfollow
+(See full trace by running task with --trace)
+Account BobsBurgersFOX was followed and saved!
+rake aborted!
+TypeError: expected numeric
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `-'
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `minus_with_duration'
+/Users/michael/rails/socialmeow/app/models/user.rb:55:in `safe_unfollow_one'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:17:in `block (2 levels) in <top (required)>'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `times'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `block in <top (required)>'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `eval'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => unfollow
+(See full trace by running task with --trace)
+Account ElizaBayne was followed and saved!
+rake aborted!
+TypeError: expected numeric
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `-'
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `minus_with_duration'
+/Users/michael/rails/socialmeow/app/models/user.rb:55:in `safe_unfollow_one'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:17:in `block (2 levels) in <top (required)>'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `times'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `block in <top (required)>'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `eval'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => unfollow
+(See full trace by running task with --trace)
+Account mtaftweets was followed and saved!
+rake aborted!
+TypeError: expected numeric
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `-'
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `minus_with_duration'
+/Users/michael/rails/socialmeow/app/models/user.rb:55:in `safe_unfollow_one'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:17:in `block (2 levels) in <top (required)>'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `times'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `block in <top (required)>'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `eval'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => unfollow
+(See full trace by running task with --trace)
+Account CheThinks was followed and saved!
+rake aborted!
+TypeError: expected numeric
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `-'
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `minus_with_duration'
+/Users/michael/rails/socialmeow/app/models/user.rb:55:in `safe_unfollow_one'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:17:in `block (2 levels) in <top (required)>'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `times'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `block in <top (required)>'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `eval'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => unfollow
+(See full trace by running task with --trace)
+Account shwizle was followed and saved!
+rake aborted!
+TypeError: expected numeric
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `-'
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `minus_with_duration'
+/Users/michael/rails/socialmeow/app/models/user.rb:55:in `safe_unfollow_one'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:17:in `block (2 levels) in <top (required)>'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `times'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `block in <top (required)>'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `eval'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => unfollow
+(See full trace by running task with --trace)
+Account peteholmes was followed and saved!
+rake aborted!
+TypeError: expected numeric
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `-'
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `minus_with_duration'
+/Users/michael/rails/socialmeow/app/models/user.rb:55:in `safe_unfollow_one'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:17:in `block (2 levels) in <top (required)>'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `times'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `block in <top (required)>'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `eval'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => unfollow
+(See full trace by running task with --trace)
+Account thebolditalic was followed and saved!
+rake aborted!
+TypeError: expected numeric
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `-'
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `minus_with_duration'
+/Users/michael/rails/socialmeow/app/models/user.rb:55:in `safe_unfollow_one'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:17:in `block (2 levels) in <top (required)>'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `times'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `block in <top (required)>'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `eval'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => unfollow
+(See full trace by running task with --trace)
+Account BethStelling was followed and saved!
+rake aborted!
+TypeError: expected numeric
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `-'
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `minus_with_duration'
+/Users/michael/rails/socialmeow/app/models/user.rb:55:in `safe_unfollow_one'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:17:in `block (2 levels) in <top (required)>'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `times'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `block in <top (required)>'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `eval'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => unfollow
+(See full trace by running task with --trace)
+Account joezimmerman was followed and saved!
+rake aborted!
+TypeError: expected numeric
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `-'
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/core_ext/date/calculations.rb:102:in `minus_with_duration'
+/Users/michael/rails/socialmeow/app/models/user.rb:55:in `safe_unfollow_one'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:17:in `block (2 levels) in <top (required)>'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `times'
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:16:in `block in <top (required)>'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `eval'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => unfollow
+(See full trace by running task with --trace)
+Account roryscovel was followed and saved!
+Account marknorm was followed and saved!
