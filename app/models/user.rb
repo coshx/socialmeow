@@ -52,7 +52,7 @@ class User < ActiveRecord::Base
   	# And who you followed more than 1 day ago
   	account = accounts.where(followed:true, unfollowed:false, followed_back: false).order(:followed_date).first
   	return unless account.followed_date.present?
-  	return unless (Time.now - account.followed_date).to_i / 1.day < 1
+  	return unless (Time.now - account.followed_date).to_i / 1.day >= 1
   	begin
   		client.unfollow(account.handle)
   	rescue Exception => e
