@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   namespace :api do
   	resources :users do
 		  post "get_info" => "mines#get_info_from_js"
+		  get "dashboard" => "dashboard#index"
   		post "init" => "accounts#get_initial_followers"
   		resources :credentials
   		resources :accounts

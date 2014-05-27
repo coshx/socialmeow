@@ -22,6 +22,9 @@ App.config ["$stateProvider", "$urlRouterProvider", "RestangularProvider", ($sta
   ).state("user_mine",
     url: "/mine"
     templateUrl: "user_mine"
+  ).state("dashboard",
+    url: "/dashboard"
+    templateUrl: "dashboard"
   )
 ]
 
@@ -33,6 +36,11 @@ App.controller "UserMineCtrl", ["$scope", "$element", "Restangular", ($scope, $e
     Restangular.one('users', 123).post('mines', {accounts: _.where($scope.accounts, {to_mine: true})})
   $scope.selectedUsers = ->
     _.map(_.where($scope.accounts, {to_mine: true}), (account) -> account.handle;)
+]
+
+App.controller "DashboardCtrl", ["$scope", "$element", "Restangular", ($scope, $element, Restangular) ->
+  getCredentials = Restangular.one('users', 123).getList('dashboard').then (result) ->    
+    $scope.data = result[0]
 ]
 
 App.controller "UserInfoCtrl", ["$scope", "$element", "Restangular", ($scope, $element, Restangular) ->

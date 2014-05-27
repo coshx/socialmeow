@@ -2,7 +2,7 @@ class Api::AccountsController < ApiController
   before_action :authenticate_user!
 
   def index
-    accounts = current_user.accounts
+    accounts = current_user.accounts.where(parent: nil)
   	render json: accounts.to_json(methods: [:to_mine, :was_mined])
   end
 
