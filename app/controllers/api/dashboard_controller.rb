@@ -5,7 +5,7 @@ class Api::DashboardController < ApiController
     result = {}
     result[:accounts] = current_user.accounts.where.not(parent: nil).count
     result[:accounts_followed] = current_user.accounts.where(followed: true).count
-    result[:accounts_followed_back] = current_user.accounts.where(followed_back: true).count
+    result[:accounts_followed_back] = current_user.followed_back.count
   	render json: [result].to_json
   end
 

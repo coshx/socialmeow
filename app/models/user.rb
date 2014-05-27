@@ -11,6 +11,10 @@ class User < ActiveRecord::Base
   
   cattr_accessor :client
 
+  def followed_back
+  	accounts.where(followed_back: true).where.not(following: true)
+  end
+
   def follow_one
   	account = accounts.where(followed:false, following:false).first
   	error = ""
