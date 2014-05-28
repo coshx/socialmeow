@@ -2008,3 +2008,39 @@ Account NotZombies was followed and saved!
 Account cliettriot was followed and saved!
 Account zusty was followed and saved!
 Account athenakay was followed and saved!
+rake aborted!
+SyntaxError: /Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:31: syntax error, unexpected tINTEGER, expecting '|'
+    args[:amount].to_i.times do |15|
+                                   ^
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:36: syntax error, unexpected keyword_end, expecting end-of-input
+rake aborted!
+SyntaxError: /Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:31: syntax error, unexpected tINTEGER, expecting '|'
+    args[:amount].to_i.times do |15|
+                                   ^
+/Users/michael/rails/socialmeow/lib/tasks/scheduler.rake:36: syntax error, unexpected keyword_end, expecting end-of-input
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/dependencies.rb:241:in `load'
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/dependencies.rb:241:in `block in load'
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/dependencies.rb:232:in `load_dependency'
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/dependencies.rb:241:in `load'
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/railties-4.1.0/lib/rails/engine.rb:654:in `block in run_tasks_blocks'
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/railties-4.1.0/lib/rails/engine.rb:654:in `each'
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/railties-4.1.0/lib/rails/engine.rb:654:in `run_tasks_blocks'
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/railties-4.1.0/lib/rails/application.rb:362:in `run_tasks_blocks'
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/railties-4.1.0/lib/rails/engine.rb:449:in `load_tasks'
+/Users/michael/rails/socialmeow/Rakefile:6:in `<top (required)>'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `eval'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `<main>'
+(See full trace by running task with --trace)
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/dependencies.rb:241:in `load'
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/dependencies.rb:241:in `block in load'
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/dependencies.rb:232:in `load_dependency'
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/activesupport-4.1.0/lib/active_support/dependencies.rb:241:in `load'
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/railties-4.1.0/lib/rails/engine.rb:654:in `block in run_tasks_blocks'
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/railties-4.1.0/lib/rails/engine.rb:654:in `each'
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/railties-4.1.0/lib/rails/engine.rb:654:in `run_tasks_blocks'
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/railties-4.1.0/lib/rails/application.rb:362:in `run_tasks_blocks'
+/Users/michael/.rvm/gems/ruby-2.1.1/gems/railties-4.1.0/lib/rails/engine.rb:449:in `load_tasks'
+/Users/michael/rails/socialmeow/Rakefile:6:in `<top (required)>'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `eval'
+/Users/michael/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `<main>'
+(See full trace by running task with --trace)

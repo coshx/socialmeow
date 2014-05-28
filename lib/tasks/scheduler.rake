@@ -28,7 +28,7 @@ end
 task :multi_follow => :environment do
   User.all.each do |user|
     user.get_client
-    args[:amount].to_i.times do |15|
+    15.times do |t|
       user.follow_one
       sleep rand(1..3)
     end
@@ -38,7 +38,7 @@ end
 task :multi_unfollow => :environment do
   User.all.each do |user|
     user.get_client
-    args[:amount].to_i.times do |15|
+    15.times do |t|
       user.safe_unfollow_one
       sleep rand(1..3)
     end
