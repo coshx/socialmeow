@@ -8,12 +8,12 @@
 set :output, "./cron_log.log"
 #
 every 2.minutes do
-  rake "follow[1,1]",  environment: "development"
-  rake "unfollow[1,1]",  environment: "development"
+  #rake "follow[1,1]",  environment: "development"
+  #rake "unfollow[1,1]",  environment: "development"
 end
 
 every 12.hours do
-  rake "who_back[1]",  environment: "development"
+  #rake "who_back[1]",  environment: "development"
 end
 #
 # every 4.days do
