@@ -14,7 +14,7 @@ class Api::MinesController < ApiController
 
   def create
   	params[:accounts].each do |account|
-  		mine = Mine.find_by handle: account[:handle]
+  		mine = current_user.mines.find_by handle: account[:handle]
   		unless mine.present?
   			mine = current_user.mines.create(handle: account[:handle])
   		end
