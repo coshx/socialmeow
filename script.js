@@ -45,9 +45,13 @@ Sm = (function () {
 })();
 
 //------
+accountData = {};
+getUser = function(accounts, user) {
+	$.each(accounts, function(index, account) {
+		(new Sm(account, user)).get();
+	});	
+}
 
 accounts = ["miketweetfeed", "HelveticaFire"];
-accountData = {};
-$.each(accounts, function(index, account) {
-	(new Sm(account, user)).get();
-});
+user = 1;
+getUser(accounts, user);

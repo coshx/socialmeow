@@ -2,6 +2,16 @@ class Api::MinesController < ApiController
   before_action :authenticate_user!, except: [:get_info_from_js]
   protect_from_forgery except: [:get_info_from_js]
 
+  def index
+  	mines = Mine.where(mined: nil)
+  	users = mines.map(&:user_id).uniq
+  	result = []
+  	users.each do |u|
+  		result << {mines: mines.where(user_id: u).map(&:handle), user: u}
+  	end
+  	render json: [{mines: result}].to_json
+  end
+
   def create
   	params[:accounts].each do |account|
   		mine = Mine.find_by handle: account[:handle]

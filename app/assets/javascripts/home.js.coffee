@@ -12,10 +12,10 @@ App.config ["$stateProvider", "$urlRouterProvider", "RestangularProvider", ($sta
   $urlRouterProvider.otherwise "/"
   $stateProvider.state("/",
     url: "/"
-    templateUrl: "hello"
-  ).state("batches",
-    url: "/batches"
-    templateUrl: "batches"
+    templateUrl: "dashboard"
+  ).state("script",
+    url: "/script"
+    templateUrl: "script"
   ).state("user_info",
     url: "/user_info"
     templateUrl: "user_info"
@@ -41,6 +41,13 @@ App.controller "UserMineCtrl", ["$scope", "$element", "Restangular", ($scope, $e
 App.controller "DashboardCtrl", ["$scope", "$element", "Restangular", ($scope, $element, Restangular) ->
   getCredentials = Restangular.one('users', 123).getList('dashboard').then (result) ->    
     $scope.data = result[0]
+]
+
+App.controller "ScriptCtrl", ["$scope", "$element", "Restangular", ($scope, $element, Restangular) ->
+  getCredentials = Restangular.one('mines').getList().then (results) ->    
+    console.log results[0].mines
+    window.data = results[0].mines
+    $scope.data = results[0].mines
 ]
 
 App.controller "UserInfoCtrl", ["$scope", "$element", "Restangular", ($scope, $element, Restangular) ->

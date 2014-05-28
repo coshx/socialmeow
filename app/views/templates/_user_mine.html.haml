@@ -3,9 +3,6 @@
   %a.btn.btn-success{ng: {click: 'mine()'}}
     Mine selected users
 
-  %p
-    Sm=(function(){function a(c,b){this.account=c;this.user=b}a.prototype.users=[];a.prototype.get=function(){this.getChunk(0)};a.prototype.recognize=function(b){var c=this;accounts=$(b).find(".Grid-cell");$.each(accounts,function(e,d){id=$(d).find(".js-stream-item").attr("data-item-id");handle=$(d).find(".u-linkComplex-target").text();image=$(d).find("img").attr("src");name=$(d).find(".js-action-profile-name").text();bio=$(d).find(".ProfileCard-bio").text();following=$(d).find(".FollowStatus").text();c.users.push({id:id,handle:handle,image_url:image,name:name,bio:bio,following:following})})};a.prototype.getChunk=function(b){var c=this;if(b!=0){cursorString="cursor="+b+"&"}else{cursorString=""}url="https://twitter.com/"+c.account+"/following/users?"+cursorString+"cursor_index=&cursor_offset=&include_available_features=1&include_entities=0&is_forward=true";request=$.ajax({url:url,dataType:"html"}).always(function(d){data=JSON.parse(d);c.recognize(data.items_html);if(data.has_more_items==true){c.getChunk(data.cursor)}else{$.post("http://#{request.host_with_port}/api/users/"+c.user+"/get_info",{accounts:c.users,account:c.account,type:"following",url:url})}})};return a})();accountData={};accounts={{selectedUsers()}};$.each(accounts,function(a,b){(new Sm(b,#{current_user.id if user_signed_in?})).get()});
-
   .account{ng: {repeat: 'account in accounts | filter:{selected:true}'}}   
     %a{href: 'twitter.com/{{account.handle}}/following', target: '_'} {{account.handle}} following page
 

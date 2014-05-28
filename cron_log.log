@@ -1747,3 +1747,70 @@ Account stephsimbari was followed and saved!
 Account SNLUpdate was followed and saved!
 Account aidybryant was followed and saved!
 Account KarenKilgariff was followed and saved!
+Account GabeDinger was followed and saved!
+Account kumailn was followed and saved!
+/Users/michael/.rvm/gems/ruby-2.1.1@global/gems/bundler-1.6.1/lib/bundler/resolver.rb:352:in `resolve': Could not find gem 'bootstrap (>= 0) ruby' in the gems available on this machine. (Bundler::GemNotFound)
+	from /Users/michael/.rvm/gems/ruby-2.1.1@global/gems/bundler-1.6.1/lib/bundler/resolver.rb:165:in `start'
+	from /Users/michael/.rvm/gems/ruby-2.1.1@global/gems/bundler-1.6.1/lib/bundler/resolver.rb:129:in `resolve'
+	from /Users/michael/.rvm/gems/ruby-2.1.1@global/gems/bundler-1.6.1/lib/bundler/definition.rb:203:in `resolve'
+	from /Users/michael/.rvm/gems/ruby-2.1.1@global/gems/bundler-1.6.1/lib/bundler/definition.rb:133:in `specs'
+	from /Users/michael/.rvm/gems/ruby-2.1.1@global/gems/bundler-1.6.1/lib/bundler/definition.rb:178:in `specs_for'
+	from /Users/michael/.rvm/gems/ruby-2.1.1@global/gems/bundler-1.6.1/lib/bundler/definition.rb:167:in `requested_specs'
+	from /Users/michael/.rvm/gems/ruby-2.1.1@global/gems/bundler-1.6.1/lib/bundler/environment.rb:18:in `requested_specs'
+	from /Users/michael/.rvm/gems/ruby-2.1.1@global/gems/bundler-1.6.1/lib/bundler/runtime.rb:13:in `setup'
+	from /Users/michael/.rvm/gems/ruby-2.1.1@global/gems/bundler-1.6.1/lib/bundler.rb:120:in `setup'
+	from /Users/michael/.rvm/gems/ruby-2.1.1@global/gems/bundler-1.6.1/lib/bundler/setup.rb:17:in `<top (required)>'
+	from /Users/michael/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /Users/michael/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/Users/michael/.rvm/gems/ruby-2.1.1@global/gems/bundler-1.6.1/lib/bundler/resolver.rb:352:in `resolve': Could not find gem 'bootstrap (>= 0) ruby' in the gems available on this machine. (Bundler::GemNotFound)
+	from /Users/michael/.rvm/gems/ruby-2.1.1@global/gems/bundler-1.6.1/lib/bundler/resolver.rb:165:in `start'
+	from /Users/michael/.rvm/gems/ruby-2.1.1@global/gems/bundler-1.6.1/lib/bundler/resolver.rb:129:in `resolve'
+	from /Users/michael/.rvm/gems/ruby-2.1.1@global/gems/bundler-1.6.1/lib/bundler/definition.rb:203:in `resolve'
+	from /Users/michael/.rvm/gems/ruby-2.1.1@global/gems/bundler-1.6.1/lib/bundler/definition.rb:133:in `specs'
+	from /Users/michael/.rvm/gems/ruby-2.1.1@global/gems/bundler-1.6.1/lib/bundler/definition.rb:178:in `specs_for'
+	from /Users/michael/.rvm/gems/ruby-2.1.1@global/gems/bundler-1.6.1/lib/bundler/definition.rb:167:in `requested_specs'
+	from /Users/michael/.rvm/gems/ruby-2.1.1@global/gems/bundler-1.6.1/lib/bundler/environment.rb:18:in `requested_specs'
+	from /Users/michael/.rvm/gems/ruby-2.1.1@global/gems/bundler-1.6.1/lib/bundler/runtime.rb:13:in `setup'
+	from /Users/michael/.rvm/gems/ruby-2.1.1@global/gems/bundler-1.6.1/lib/bundler.rb:120:in `setup'
+	from /Users/michael/.rvm/gems/ruby-2.1.1@global/gems/bundler-1.6.1/lib/bundler/setup.rb:17:in `<top (required)>'
+	from /Users/michael/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /Users/michael/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+Account Ahm76 was followed and saved!
+Account TheBusinessSF was followed and saved!
+Account suzi_barrett was followed and saved!
+Account crusher was followed and saved!
+Account rickabruzzo was followed and saved!
+Account aliwong3000 was followed and saved!
+Account mrjoestaples was followed and saved!
+Account cristela9 was followed and saved!
+Account tarashoe was followed and saved!
+Account ChasaDominique was followed and saved!
+Account salcalanni was followed and saved!
+Account benner was followed and saved!
+Account ElizabethBanks was followed and saved!
+Account smccab was followed and saved!
+Account waitwait was followed and saved!
+Account RebelWilson was followed and saved!
+Account AnnaKendrick47 was followed and saved!
+Account MikeDrucker was followed and saved!
+Account tammyjodearen was followed and saved!
+Account iliza was followed and saved!
+Account lauratellsjokes was followed and saved!
+Account annadrezen was followed and saved!
+Account twoscooters was followed and saved!
+Account Lady2LadyComedy was followed and saved!
+Account rgranados was followed and saved!
+Account JimGaffigan was followed and saved!
+Account RLComedians was followed and saved!
+Account guybranum was followed and saved!
+Account Brandazzle was followed and saved!
+Account bethnew was followed and saved!
+Account CourtingComedy was followed and saved!
+Account allison_lackey was followed and saved!
+Account mai was followed and saved!
+Account GregDorris was followed and saved!
+Account thenickpalm was followed and saved!
+Account ThePeteOKeefe was followed and saved!
+was some kinda error with shelbyfero: getaddrinfo: nodename nor servname provided, or not known
+Account shelbyfero was followed and saved!
+Account RhiannonArcher was followed and saved!
