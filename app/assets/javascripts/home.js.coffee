@@ -40,7 +40,8 @@ App.controller "UserMineCtrl", ["$scope", "$element", "Restangular", ($scope, $e
 
 App.controller "DashboardCtrl", ["$scope", "$element", "Restangular", ($scope, $element, Restangular) ->
   getCredentials = Restangular.one('users', 123).getList('dashboard').then (result) ->    
-    $scope.data = result[0]
+    $scope.data = result
+    window.r = result
 ]
 
 App.controller "ScriptCtrl", ["$scope", "$element", "Restangular", ($scope, $element, Restangular) ->
