@@ -1,6 +1,34 @@
 .dashboard{ng: {controller: 'DashboardCtrl'}}
-  .user-data{ng: {repeat: 'user in data'}}
-    %h1 Total accounts number {{user.accounts}}
-    %h1 Accounts followed {{user.accounts_followed}}
-    %h1 Followed Back {{user.accounts_followed_back}}
-    %h1 People Followed
+  %table.table
+    %thead
+      %tr
+        %th
+          User
+        %th
+          Total accounts number 
+        %th
+          Accounts followed
+        %th
+          Followed Back
+        %th
+          Days since launched
+        %th
+          Followed per day average
+        %th
+          Followed back per day average
+    %tbody.user-data
+      %tr{ng: {repeat: 'user in data'}}
+        %td
+          {{user.name}}
+        %td
+          {{user.accounts}}
+        %td
+          {{user.accounts_followed}}
+        %td
+          {{user.accounts_followed_back}}
+        %td
+          {{user.days_of_work}}
+        %td
+          {{user.followed_per_day}}
+        %td
+          {{user.followed_back_per_day}}
