@@ -16,7 +16,7 @@ class User < ActiveRecord::Base
   end
 
   def followed
-    accounts.order(:followed_date).where(followed: true, following: false)
+    accounts.where(followed: true, following: false).order(:followed_date)
   end
 
   def follow_one
