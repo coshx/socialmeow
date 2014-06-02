@@ -23,8 +23,11 @@ class Api::DashboardController < ApiController
 				starts = first_date + t.days 
 				ends = first_date + t.days + 1.day
 				detail = {}
-				detail[:starts] = starts				
-				detail[:count] = followed_back.where(followed_date: starts..ends).count
+				detail[:starts] = starts			
+				today_follow_backs = followed_back.where(followed_date: starts..ends)
+				parents = today_follow_backs.map {|a| a.parent}
+				detail[:parents] = parents
+				detail[:count] = today_follow_backs.count
 				result[:detailed_data] << detail
 			end 
 		end
