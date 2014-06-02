@@ -32,3 +32,11 @@
           {{user.followed_per_day}}
         %td
           {{user.followed_back_per_day}}
+  %h1 
+    Details
+  .user-details{ng: {repeat: 'user in data'}}
+    %h4
+      {{user.detailed_data}} {{user.name}}
+    .following{ng: {repeat: 'detail in user.detailed_data'}}
+      {{detail.starts}}
+      {{detail.count}}

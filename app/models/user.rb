@@ -15,6 +15,10 @@ class User < ActiveRecord::Base
   	accounts.where(followed_back: true).where.not(following: true)
   end
 
+  def followed
+    accounts.order(:followed_date).where(followed: true, following: false)
+  end
+
   def follow_one
   	account = accounts.where(followed:false, following:false).first
   	error = ""
