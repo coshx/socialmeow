@@ -23,8 +23,8 @@ class Api::MinesController < ApiController
   end
 
   def get_info_from_js
+    binding.pry
   	user = User.find(params[:user_id])
-  	mine = Mine.find_by handle: params[:account]
   	params[:accounts].each do |a|
   		a = a[1]
   		account = Account.find_by handle: a[:handle]
@@ -40,6 +40,10 @@ class Api::MinesController < ApiController
   			account.save!
   		end
   	end
+    mine = Mine.find_by handle: params[:account]
+    unless mine.present?    
+      mine = user.mines.create(handle: params[:account])
+    end
   	mine.mined = true
   	mine.save!
   	render json: {error: 0}
