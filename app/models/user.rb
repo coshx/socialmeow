@@ -22,19 +22,21 @@ class User < ActiveRecord::Base
   def follow_one
   	account = accounts.where(followed:false, following:false).first
   	error = ""
-  	begin
-  		client.follow(account.handle)
-  	rescue Exception => e
-  		error = e.message
-  		puts "was some kinda error with #{account.handle}: #{e.message}"
-  		account.error = error
-  	end
-  	unless error == "Rate limit exceeded"
-	  	account.followed = true
-	  	account.followed_date = DateTime.now
-	  	account.save!
-	  	puts "Account #{account.handle} was followed and saved!"
-	end
+    if account.present?
+    	begin
+    		client.follow(account.handle)
+    	rescue Exception => e
+    		error = e.message
+    		puts "was some kinda error with #{account.handle}: #{e.message}"
+    		account.error = error
+    	end
+    	unless error == "Rate limit exceeded"
+  	  	account.followed = true
+  	  	account.followed_date = DateTime.now
+  	  	account.save!
+  	  	puts "Account #{account.handle} was followed and saved!"
+  	  end
+    end
   end
   
   def unfollow_one
