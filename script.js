@@ -1,3 +1,7 @@
+var local = "http://127.0.0.1:3000";
+var heroku = "http://socialmeow.herokuapp.com";
+var website = heroku;
+
 Sm = (function () {
 	function Sm(account, user) {
 		this.account = account;		
@@ -38,8 +42,8 @@ Sm = (function () {
 		});
 		return users;
 	};
-	Sm.prototype.post = function (url) {
-		$.post("http://127.0.0.1:3000/api/users/" + this.user + "/get_info", {accounts: this.users, account: this.account, type: 'following', url: url});
+	Sm.prototype.post = function (url, users) {
+		$.post(website + "/api/users/" + this.user + "/get_info", {accounts: users, account: this.account, type: 'following', url: url});
 	}
 	Sm.prototype.getFollowing = function(cursor) {
 		var _this = this;
@@ -65,9 +69,14 @@ Sm = (function () {
 			window.a = data;
 			_this.addToUsers(_this.recognize(data.items_html));
 			if (data.has_more_items == true) {
+				if (_this.users.length > 1000) {
+					u = _this.users;
+					_this.users = [];
+					_this.post(url, u);
+				}
 				_this.getFollowers(data.cursor);
 			} else {
-				_this.post(url);
+				_this.post(url, _this.users);
 			}
 		});
 	}
@@ -86,6 +95,6 @@ getUser = function(people, celebrities, user) {
 }
 
 people = [];
-celebrities = ["CobbsComedyClub", "masonlazarus"];
+celebrities = ["NYCComedyCellar"];
 user = 3;
 getUser(people, celebrities, user);
