@@ -27,7 +27,7 @@ class Api::MinesController < ApiController
   	user = User.find(params[:user_id])
   	params[:accounts].each do |a|
   		a = a[1]
-  		account = Account.find_by handle: a[:handle]
+  		account = user.accounts.find_by handle: a[:handle]
   		unless account.present?
   			account = user.accounts.new
   			account.smid = a[:id]
